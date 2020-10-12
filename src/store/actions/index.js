@@ -1,12 +1,12 @@
 export {
-  signUp,
-  signOut,
-  signIn,
-  verifyEmail,
-  recoverPassword,
-  editProfile,
-  deleteUser,
-  clean,
-} from './authActions';
+    signUp,
+    signOut,
+    signIn,
+    verifyEmail,
+    recoverPassword,
+    editProfile,
+    deleteUser,
+    clean,
+} from "./authActions";
 
-export { addTodo, deleteTodo, editTodo } from './todoActions.js';
+export { addTodo, deleteTodo, editTodo } from "./todoActions.js";

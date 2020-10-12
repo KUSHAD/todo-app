@@ -1,18 +1,17 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 
-const config = {
-    apiKey: "AIzaSyBgsBtJvzY-7H9alhQEhv7i-6V1hOHjKSA",
-    authDomain: "todo-auth-cf98d.firebaseapp.com",
-    databaseURL: "https://todo-auth-cf98d.firebaseio.com",
-    projectId: "todo-auth-cf98d",
-    storageBucket: "todo-auth-cf98d.appspot.com",
-    messagingSenderId: "197554278316",
-    appId: "1:197554278316:web:fc5fc57c7802db09cb3409"
+const firebaseConfig = {
+    apiKey: "AIzaSyCzScxvlZ1DHfW4-Y0ZH_aI9E4RlQhOU-c",
+    authDomain: "react-to-do-firebase-auth.firebaseapp.com",
+    databaseURL: "https://react-to-do-firebase-auth.firebaseio.com",
+    projectId: "react-to-do-firebase-auth",
+    storageBucket: "react-to-do-firebase-auth.appspot.com",
+    messagingSenderId: "718032676506",
+    appId: "1:718032676506:web:512d85b174cc62fa64e123",
 };
-
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 firebase.firestore();
 
 export default firebase;
